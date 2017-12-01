@@ -1,0 +1,440 @@
+body,dl,dt,dd,ul,li.form.button.input.textarea{
+    padding: 0;
+    margin: 0;
+}
+a{text-align: none}
+ul,ol{list-style: none;}
+#header{
+    height: 105px;
+}
+#header h1{
+    padding: 0 10px;
+    margin: 0;
+}
+.pic{height: 70px;width:150px;}
+#header .cont{
+    position: relative;
+    height: 105px;
+    margin: 0 auto;
+    z-index: 100;
+}
+#header .logo{
+    float: left;
+    margin: 0 0 0 10px;
+    line-height: 80px;
+}
+#header .search{
+    left: 198px;
+    top: 20px;
+    position: absolute;
+}
+.mainNav{
+    position: absolute;
+    top: 60px;
+    left:0;
+    width: 100%;
+    height: 44px;
+    line-height: 37px;
+  
+    z-index: 100;
+    background-color: #4a4a4a;
+    display: inline;
+}
+.mainNav .nav{
+    display: inline;
+    float: left;
+    margin-left: 25px;
+}
+.mainNav ul li{
+    float: left;
+    display: inline;
+    margin-right: 14px;
+    position: relative;
+    z-index: 100;
+}
+.mainNav ul li a{
+    display: block;
+    padding: 0 80px;
+    font-weight: 700;
+    color: #fff;
+    font-size: 14px;
+}
+.xiNav{
+    background-color: #ffffff;
+    border: 1px solid #B1B1B1;
+    border-top: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 37px;
+    left: 0;
+    width: 474px;
+    z-index: 1000;
+    display: none;
+}
+.xiNav .subitem{
+    float: left;
+    height: auto !important;
+    min-height: 100px;
+    padding: 10px 12px;
+    width: 450px;
+}
+.xiNav .submit dl{
+  clear: both;
+  float: left;
+  text-decoration: none;
+}
+.xiNav .subitem dt{
+    font-weight: bold;
+    float: left;
+    text-decoration: none;
+}
+.xiNav .subitem dd{
+    float: left;
+    margin:0 16px 0;
+}
+.xiNav .subitem dd a{
+   font-size: 16px;
+   color: #4a4a4a;
+   text-decoration: none;
+   padding: 0;
+   margin: 0;
+   display: inline;
+}
+#content{
+    clear: left;
+    margin: 0 auto;
+    position: relative;
+    left: 5px;
+    top: 6px;
+}
+.xiaoer{
+    height: 700px;
+    overflow: hidden;
+    padding: 0;
+    float: left;
+}
+#xiCatalog{
+    float: left;
+    height: 698px;
+    margin: 0 11px 0 0;
+    overflow: hidden;
+    width: 187px;
+    padding: 0;
+}
+#xiImageroll{
+    float: left;
+    height: 320px;
+    margin: 0 11px 0 0;
+    overflow: hidden;
+    position: relative;
+    width: 550px;
+}
+#xiNotic{
+    float: left;
+    height: 321px;
+    overflow: hidden;
+    width: 230px;
+}
+#xiBrand{
+    float: left;
+    height: 230px;
+    margin: 10px 00;
+    overflow: hidden;
+    width: 790px;
+}
+#xiCatalog h2{
+    line-height: 30px;
+    color: #fff;
+    font-size: 12px;
+    text-indent: 13px;
+    background-color: #6e6e6e;
+    margin: 0;
+}
+.xiCatainfo{
+    border: 1px solid #6e6e6e;
+    border-style: none  solid solid;
+    border-width: 0 1px 1px;
+    height: 600px;
+    overflow: hidden;
+    padding: 0 10px 0;
+    width: 165px;
+}
+.xiCatainfo h3{
+    line-height: 24px;
+    width: 164px;
+}
+.xiCatainfo ul{
+    float: left;
+    padding: 0 2px 8px;
+}
+.xiCatainfo li{
+    color: #aeadae;
+    float: left;
+    height: 24px;
+    line-height: 24px;
+    width: 79px;
+    overflow: hidden;
+    position: relative;
+}
+.xiCatainfo li a{
+    color: #444444;
+}
+.xiCatainfo li a:hover{
+    color: #008cd7;
+    text-decoration: none;
+}
+.xiCatainfo li a.promoted{
+    color: #f9044e;
+}
+#xiImageroll{
+    float: left;
+    height: 320px;
+    margin: 0 11px 0 0;
+    overflow: hidden;
+    position: relative;
+    width: 550px;
+}
+#xiImageroll img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 320px;
+    width: 550px;
+}
+#xiImageroll div{
+    bottom: 0;
+    overflow: hidden;
+    position: absolute;
+    float: left;
+}
+#xiImageroll div a{
+    background-color: #444444;
+    color: #ffffff;
+    display: inline-block;
+    float: left;
+    height: 32px;
+    margin-right: 1px;
+    overflow: hidden;
+    padding: 5px 15px;
+    text-align: center;
+    width: 79px;
+}
+#xiImageroll div a:hover{
+    text-decoration: none;
+}
+#xiImageroll div a em{
+    cursor: pointer;
+    display: block;
+    height: 16px;
+    overflow: hidden;
+    width: 79px;
+}
+#xiNotice{
+    float: left;
+    height: 321px;
+    overflow: hidden;
+    width: 230px;
+}
+#xiMiaosha{
+    float: left;
+    height: 176px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    width: 230px;
+}
+#xiNoticInfo{
+    float: left;
+    border: 1px solid #dfdfdf;
+    height: 133px;
+    overflow: hidden;
+    width: 228px;
+}
+#xiNoticeInfo h2{
+    height: 23px;
+    line-height: 13px;
+    border-bottom: 1px solid #dedede;
+    text-indent: 12px;
+}
+#xiNoticInfo ul {
+    float: left;
+    padding: 6px 2px 0 12px;
+}
+#xiNotineInfop li {
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+}
+#xiNoticeInfo li a {
+    color: #666666;
+}
+#xiNoticeInfo li a:hover{
+    color: #008cd7;
+    text-decoration: none;
+}
+.dp{
+    width: 150px;
+    height: 150px;
+}
+#xiBrand{
+    float: left;
+    height: 230px;
+    margin: 10px 0 0;
+    overflow: hidden;
+    width: 790px;
+}
+#xiBrandTab{
+    border-top: 1px solid #e4e4e4;
+    height: 30px;
+    position: relative;
+    width: 790px;
+    float: left;
+    display: inline-block;
+}
+#xiBrandTab h2{
+    height: 29px;
+    position: absolute;
+    width: 100px;
+    line-height: 5px;
+    left: 0px;
+    
+}
+#xiBrandTab ul{
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+#xiBrandTab li{
+    float: left;
+    margin: 0 10px 0 0;
+}
+#xiBrandTab li a{
+    background-color: #e4e4e4;
+    color: #000000;
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    padding: 0 10px;
+}
+#xiBrandTab .chos{
+    background: url("../images/")no-repeat scroll 50% bottom transparent;
+    padding-bottom: 3px;
+}
+#xiBrandTab .chos a{
+    background-color: #fa5889;
+    color: #ffffff;
+    outline:  0 none;
+}
+.one{
+    width: 185px;
+    height: 150px;
+}
+
+#xiBrandContent{
+    float: left;
+    height: 360px;
+    overflow: hidden;
+    margin: 8px 0px;
+    width: 790px;
+    position: relative;
+    padding: 0;
+}
+#xiBrandList{
+    position: absolute;
+    left: 0;
+    top: 0px;
+    width: 3200px;
+}
+#xiBrandContent li{
+    float: left;
+    height: 360px;
+    overflow: hidden;
+    padding-right: 12px;
+    position: relative;
+    width: 186px;
+    top: 0px;
+    left: 0px;
+}
+#BrandContent li img{
+    position: absolute;
+    top: 0;
+}
+#xiBrandContent li span{
+    background-color: #efefef;
+    top: 150px;
+    color: #666666;
+    display: block;
+    font-size: 14px;
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    width: 185px;
+}
+#xiBrandContent li a {
+    color: #666666;
+}
+#xiBrandContent li a:hover{
+    color: #008cd7;
+    text-decoration: none;
+}
+#xiItem{
+    float: left;
+    width: 312px;
+    height: 560px;
+}
+#xiGoods{
+    float: left;
+    overflow: hidden;
+    width: 468px;
+}
+.tab{
+    clear: both;
+    float: left;
+    height: 230px;
+    overflow: hidden;
+    width: 310px;
+}
+.box textarea{
+    height: 195px;
+    width: 302px;
+    font-size: 15px;
+    font-family:"Times New Roman",Georgia,Serif,"SimHei"; 
+    font-weight: bold;
+    text-indent: 30px;
+    line-height: 20px;
+}
+.tab .menu li{
+    float: left;
+    text-align: center;
+    cursor: pointer;
+    list-style: none;
+    padding: 1px 6px ;
+    margin-right: 4px;
+    background: #f1f1f1;
+    border: 1px solid #898989;
+}
+.chos{
+    color: #e61111;
+    outline:  0 none;
+}
+.tab .box{
+    clear: both;
+    border: 1px solid#898989;
+    height: 200px;
+}
+.tab .hide{
+    display: none;
+}
+.goods{
+    float: left;
+    height: 300px;
+    width: 400px;
+    margin-right: 10px;
+ 
+}
+.goods img{
+    height: 300px;
+    width: 400px;
+}
+
