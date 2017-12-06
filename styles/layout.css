@@ -2,7 +2,7 @@ body,dl,dt,dd,ul,li.form.button.input.textarea{
     padding: 0;
     margin: 0;
 }
-.clear{clear:both;}
+.clearr{clear:both;}
 a{text-align: none}
 ul,ol{list-style: none;}
 #header{
